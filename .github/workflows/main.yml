@@ -1,0 +1,13 @@
+name:simple CI/CD
+on:
+push:
+branches:[main]
+
+jobs:
+deploy:
+runs-on:ubuntu-latest
+
+steps:
+-name:Get code
+uses:Simulate Deployment
+run:echo "Website deployed successfully!"
